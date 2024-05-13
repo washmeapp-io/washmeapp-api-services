@@ -25,7 +25,7 @@ export const handleHttpRequests = async (event: any, context: any) => {
 
   const resource = `${httpMethod}-${path}`;
   switch (resource) {
-    case "POST-/carwash/create":
+    case "POST-services/carwash/create":
       const services = requestBody.services
         ? new Map(Object.entries(requestBody.services))
         : new Map();
