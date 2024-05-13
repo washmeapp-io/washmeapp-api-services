@@ -1,0 +1,6 @@
+POST https://ksbmzzwjul.execute-api.us-east-1.amazonaws.com/dev/users/send-otp
+Content-Type: application/json
+
+{
+  "username": "uribesotod@gmail.com"
+}

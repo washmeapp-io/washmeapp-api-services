@@ -21,6 +21,7 @@ Partition Key => **ID**
 * Has Individual Women bathroom
 * Has Individual Man bathroom  
 Partition Key => **ID**
+Global Secondary Index => Partition Key: **Owner ID** + Sort Key: **ID**
 
 ### Employees
 

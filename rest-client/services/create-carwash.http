@@ -1,0 +1,23 @@
+POST https://j9ecfdqhul.execute-api.us-east-1.amazonaws.com/dev/services/carwash/create
+Content-Type: application/json
+Authorization: Bearer eyJraWQiOiJ4RlNTc3ZRVTRRb1FqKzg0S2prcStSMGkySkVMWkMyUG1lblhLXC9WQnpKVT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI0OTBkZjRjNC1lYzRmLTQ1ODctYjA2NC1hZjU1YWZhMDAyYjQiLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9hbGxmSzhHTFgiLCJjb2duaXRvOnVzZXJuYW1lIjoidXJpYmVzb3RvZEBnbWFpbC5jb20iLCJvcmlnaW5fanRpIjoiMDUxNDcyMjMtMjUyZC00ZTgyLWEyOWYtNjQyMGJiNDk3ZGU0IiwiYXVkIjoiNzVxbGZzcXRhcTMzbDJhMHI5YXU5ZTZqNWUiLCJldmVudF9pZCI6IjVlMThmYmYwLWNkMjAtNDAxZC04ZWJiLTEyZmJhZWYzZTgzMyIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNzE1NjQxMjA5LCJleHAiOjE3MTU2NDQ4MDksImlhdCI6MTcxNTY0MTIwOSwianRpIjoiYzAyYTg5MmUtY2E0OC00NGI3LWFhYWUtZmFlNzdmZjY5NWU1IiwiZW1haWwiOiJ1cmliZXNvdG9kQGdtYWlsLmNvbSJ9.oaRcTtOoVwCvSGBeLbxtTTN1Ewr60qwqqQgEpnxHFp9XOr_S5AtUF0j5Zb6MPn_-W0zSujQa85SmCT-qlxt3nRKbXdig79dNLPbgNqWYunGYUVEYBAsEBE3vARKtvAW0PCYRn8dOA1lfP_Ihw6kAR8RNd1eW3Uw3yobIu1YuSnJQOzUtzJcX8vqReRW0QL6eadfB3lc4ZVmET234O2IUCpK21ayFR01QaY2ldgB13BlmT9pVEb3x9isfZtupT3VJYoeOjfHRIGw8wZXuZxmnaGHk30kbUy6hsGkQuH7TEYOMVmdOFO01Y5rBb9qNTKGbVGqXO11tElfNYh-kckDyLw
+
+{
+  "name": "Downtown Car Wash",
+  "services": {
+    "basic": {
+      "name": "Basic Wash",
+      "price": 25,
+      "duration": 30
+    },
+    "deluxe": {
+      "name": "Deluxe Wash",
+      "price": 35,
+      "duration": 45
+    }
+  },
+  "address": "123 Main St, Anytown, USA",
+  "hasElectricPlant": true,
+  "hasIndividualWomenBathroom": true,
+  "hasIndividualManBathroom": true
+}
