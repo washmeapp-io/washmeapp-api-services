@@ -15,7 +15,7 @@ const body = {
 };
 
 const event = getBaseEvent({
-  path: "services/carwash/create",
+  path: "/services/carwash/create",
   method: "POST",
   body,
 });
