@@ -1,8 +1,19 @@
 ## Entities
 
+### Users
+
+* ID
+* Name
+* Contact Number
+* Email
+* Role (owner, user)  
+Partition Key => **ID**
+
+
 ### Car wash
 
 * ID
+* Owner ID
 * Name
 * Services
 * Address
