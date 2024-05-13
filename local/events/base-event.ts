@@ -6,7 +6,7 @@ interface IGetBaseEventsArgs {
 export const getBaseEvent = (args: IGetBaseEventsArgs) => {
   const { path, method, body } = args;
   return {
-    resource: "/services/create",
+    resource: "/services/carwash/create",
     path: path,
     httpMethod: method,
     headers: {
@@ -35,11 +35,11 @@ export const getBaseEvent = (args: IGetBaseEventsArgs) => {
     },
     requestContext: {
       resourceId: "ay1ad2",
-      resourcePath: "/services/create",
+      resourcePath: "/services/carwash/create",
       httpMethod: "POST",
       extendedRequestId: "XunnYF_nIAMFd3Q=",
       requestTime: "13/May/2024:21:29:18 +0000",
-      path: "/services/create",
+      path: "/services/carwash/create",
       accountId: "473582634188",
       protocol: "HTTP/1.1",
       stage: "test-invoke-stage",
