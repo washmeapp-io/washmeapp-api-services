@@ -8,7 +8,7 @@
 * Email
 * Role (owner, user)  
 Partition Key => **ID**   
-  Global Secondary Index => Partition Key: **email**
+  Global Secondary Index => Partition Key: **email**  
   Global Secondary Index => Partition Key: **Contact Number**
 
 
